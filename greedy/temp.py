@@ -159,8 +159,8 @@ def spider(username,password,driver,book_name_xls,sheet_name_xls,keyword,maxWeib
 
 
 if __name__ == '__main__':
-    username = "17337737167" #你的微博登录名
-    password = "15518956701" #你的密码
+    username = "登录名" #你的微博登录名
+    password = "密码" #你的密码
     driver = webdriver.Chrome()#你的chromedriver的地址
     book_name_xls = "Jinshi.xls" #填写你想存放excel的路径，没有文件会自动创建
     sheet_name_xls = '微博数据' #sheet表名
